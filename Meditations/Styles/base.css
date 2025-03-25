@@ -56,6 +56,18 @@ img {
     object-fit: cover;
 }
 
+h2{
+    color: white;
+    text-align: center;
+}
+
+audio {
+    width: 300px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+
 footer {
     background-color: rgb(16, 16, 137);
     color: white;

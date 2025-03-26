@@ -52,8 +52,15 @@ body {
 
 img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 30%;
     object-fit: cover;
+    display: block;
+    margin: 0 auto;
+
+}
+
+h1{
+    padding: 5px;
 }
 
 h2{
@@ -61,12 +68,29 @@ h2{
     text-align: center;
 }
 
+h3{
+    text-align: center;
+    color: white;
+    }
+
+h4{
+    color: white;
+}
+
 audio {
     width: 300px;
     background-color: #f4f4f4;
     border-radius: 10px;
 }
+.music {
+    text-align: center; 
+    margin: 20px auto;
+}
 
+.music audio {
+    display: block; 
+    margin: 10px auto;
+}
 
 footer {
     background-color: rgb(16, 16, 137);
@@ -113,3 +137,4 @@ footer p {
         display: none;
     }
 }
+
